@@ -12,9 +12,18 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
         <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
+          Mi nombre es Mariana Cifuentes Zúñiga conocida artísticamente como Mac
+          soy de la cuidad de Popayán actualmente estudiando la carrera de
+          Ingeniería Física en la Universidad del Cauca, he tenido un
+          acercamiento a las artes plásticas desde hace más de 8 años
+          participando en diversidad de actividades artísticas, complementándose
+          con la exploración personal en diversas técnicas artísticas,
+          participando en diversos viajes en busca de aprender más acerca de las
+          diversas artes y su historia.
+        </p>
+        <p>
+          (This is a sample website - you’ll be building a site like this in{" "}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
@@ -33,7 +42,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
     </Layout>
-  )
+  );
 }
 
 export async function getStaticProps() {
